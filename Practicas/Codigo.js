@@ -1,9 +1,9 @@
 //Funcion que retorna random
 function random(min,max){
-    returnMath.floor(Math.random()*(max-min+1)+min)
+    return Math.floor(Math.random()*(max-min+1)+min)
 }
 
-function opcion(jugador){
+function opcion(jugada){
     let resultado = ''
     if(jugada == 1){
         resultado = 'Piedra'
@@ -24,13 +24,13 @@ let pc = 0
 
 while (triunfos < 3 && perdidas < 3){
     //1 = Piedra - 2 = Papel - 3 = Tijera
-    pc = aleatorio(1,3)
+    pc = random(1,3)
     jugador = prompt('Eligie: 1 = Piedra - 2 = Papel - 3 = Tijera') 
 
     //mostramos la eleccion de cada uno
     alert('PC Elige '+opcion(pc))
     alert('Jugador Elige '+opcion(jugador))
-    
+
     //Condicional para saber quien gana
     if(pc==jugador){
         alert('Empate')
