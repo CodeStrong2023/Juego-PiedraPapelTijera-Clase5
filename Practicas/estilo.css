@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #BA4A00 ;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #BA4A00 ;
+}
+img{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+button{
+    font-family: sans-serif;
+    color:#F6DDCC;
+    text-align: center;
+    background-color: #cc581a;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 20px
+}
+div {
+    display: flex;
+    justify-content: center;
+  }
+body{
+    background-color: #F6DDCC;
+}
